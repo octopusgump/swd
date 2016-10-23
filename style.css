@@ -548,8 +548,8 @@ input:focus {
     font-size: 23px;
     font-weight: 400;
 }
-.sidebar h3:hover{
-    font-weight: 700;
+.sidebar:hover{
+    background: #F0C808;
 }
 .sidebar h3:active{
     font-weight: 700;
