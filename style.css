@@ -548,7 +548,7 @@ input:focus {
     font-size: 23px;
     font-weight: 400;
 }
-.sidebar:hover{
+.sidebar h3:hover{
     background: #F0C808;
 }
 .sidebar h3:active{
