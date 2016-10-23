@@ -34,6 +34,41 @@
     position: relative;
     text-align: center;
 }
+.return{
+    position: relative;
+    height: 50px;
+    width: 40px;
+    min-width: 100px;
+
+    border: none;
+    outline: none;
+
+    background: #47AA42;
+    border-radius: 3px;
+    box-shadow: 0 5px 0px #368032;
+
+    cursor: pointer;
+    display: inline-block;
+}
+.return:hover{
+    background: #F0C808;
+    box-shadow: 0 4px 1px #333533;
+    border-bottom: 2px solid #333533;
+    transition: all 0.1s ease-in-out;
+}
+.return:active{
+    transform:translateY(4px);
+    border-bottom-width: 2px;
+    box-shadow: none;
+}
+.return h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
 
 /*==============Top Bar==============*/
 .topbar{
