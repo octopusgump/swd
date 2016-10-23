@@ -1,38 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 .button{
-	position: relative;
-	height: 40px;
-	width: 280px;
-	min-width: 100px;
+    position: relative;
+    height: 40px;
+    width: 280px;
+    min-width: 100px;
 
-	border: none;
-	outline: none;
+    border: none;
+    outline: none;
 
-	background: #1282BF;
-	border-radius: 3px;
-	box-shadow: 0 5px 0px #333533;
+    background: #47AA42;
+    border-radius: 3px;
+    box-shadow: 0 5px 0px #368032;
 
-	cursor: pointer;
-	display: inline-block;
+    cursor: pointer;
+    display: inline-block;
 }
 .button:hover{
-	background: #47AA42;
-	box-shadow: 0 4px 1px #368032;
-	border-bottom: 2px solid #368032;
-	transition: all 0.1s ease-in-out;
+    background: #F0C808;
+    box-shadow: 0 4px 1px #333533;
+    border-bottom: 2px solid #333533;
+    transition: all 0.1s ease-in-out;
 }
 .button:active{
-	transform:translateY(4px);
-	border-bottom-width: 2px;
-	box-shadow: none;
+    transform:translateY(4px);
+    border-bottom-width: 2px;
+    box-shadow: none;
 }
 .button h2{
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	margin: 0;
-	position: relative;
-	text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+    text-align: center;
 }
 
 /*==============Top Bar==============*/
@@ -71,7 +71,7 @@
     padding-bottom: 14px;
 }
 #logo a:hover {
-    background: #1282BF;
+    background: #F0C808;
     -o-transition: background-color .15s ease-in-out;
     -ms-transition: background-color .15s ease-in-out;
     -moz-transition: background-color .15s ease-in-out;
@@ -79,7 +79,7 @@
     transition: background-color .15s ease-in-out;
 }
 #logo a:active {
-    background: #1282BF;
+    background: #F0C808;
     -o-transition: background-color .15s ease-in-out;
     -ms-transition: background-color .15s ease-in-out;
     -moz-transition: background-color .15s ease-in-out;
@@ -95,7 +95,7 @@
     padding-bottom: 14px;
 }
 #login:hover {
-    background: #1282BF;
+    background: #F0C808;
     -o-transition: background-color .15s ease-in-out;
     -ms-transition: background-color .15s ease-in-out;
     -moz-transition: background-color .15s ease-in-out;
@@ -103,7 +103,7 @@
     transition: background-color .15s ease-in-out;
 }
 #login:active {
-    background: #1282BF;
+    background: #F0C808;
     -o-transition: background-color .15s ease-in-out;
     -ms-transition: background-color .15s ease-in-out;
     -moz-transition: background-color .15s ease-in-out;
@@ -121,7 +121,7 @@
     padding-top: inherit;
 }
 #signup0:hover {
-    background: #1282BF;
+    background: #F0C808;
     -o-transition: background-color .15s ease-in-out;
     -ms-transition: background-color .15s ease-in-out;
     -moz-transition: background-color .15s ease-in-out;
@@ -129,7 +129,7 @@
     transition: background-color .15s ease-in-out;
 }
 #signup0:active {
-    background: #1282BF;
+    background: #F0C808;
     -o-transition: background-color .15s ease-in-out;
     -ms-transition: background-color .15s ease-in-out;
     -moz-transition: background-color .15s ease-in-out;
@@ -146,7 +146,7 @@
     padding-bottom: 14px;
 }
 #signup:hover {
-    background: #1282BF;
+    background: #F0C808;
     -o-transition: background-color .15s ease-in-out;
     -ms-transition: background-color .15s ease-in-out;
     -moz-transition: background-color .15s ease-in-out;
@@ -154,7 +154,7 @@
     transition: background-color .15s ease-in-out;
 }
 #signup:active {
-    background: #1282BF;
+    background: #F0C808;
     -o-transition: background-color .15s ease-in-out;
     -ms-transition: background-color .15s ease-in-out;
     -moz-transition: background-color .15s ease-in-out;
@@ -169,13 +169,14 @@
     bottom: 0;
     right: 0;
     margin: auto; 
-    width: 80%;
-    max-width: 1440px;
-    min-width: 800px;
+    width: 500px;
     margin-top: 70px;
 }
 
 /*==============User Signup Form==============*/
+.userForm input{
+    padding: 12px 50px 12px 50px;
+}
 .userForm h4{
     margin-top: 12px;
     font-size: 15px;
@@ -188,7 +189,41 @@
     margin-right: 5px;
     font-weight: 400;
 }
+.buttonUser{
+    position: relative;
+    height: 40px;
+    width: 280px;
+    min-width: 100px;
 
+    border: none;
+    outline: none;
+
+    background: #47AA42;
+    border-radius: 3px;
+    box-shadow: 0 5px 0px #368032;
+
+    cursor: pointer;
+    display: inline-block;
+}
+.buttonUser:hover{
+    background: #F0C808;
+    box-shadow: 0 4px 1px #333533;
+    border-bottom: 2px solid #333533;
+    transition: all 0.1s ease-in-out;
+}
+.buttonUser:active{
+    transform:translateY(4px);
+    border-bottom-width: 2px;
+    box-shadow: none;
+}
+.buttonUser h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
 /*==============Login/Index Form==============*/
 .bgContainer0{
     position: fixed;
@@ -197,6 +232,7 @@
     bottom: 0;
     right: 0;
     margin: auto; 
+    z-index: 2;
 
     width: 300px;
     height: 300px;
@@ -222,12 +258,12 @@
 }
 
 .bgContainer0 h1{
-    font-size: 75px;
+    font-size: 85px;
     margin: 0;
     padding: 0;
 }
 .bgContainer0 h4{
-    font-size: 17px;
+    font-size: 17.5px;
     font-weight: 400;
     margin-top: -10px;
     padding: 0;
@@ -238,6 +274,158 @@
     width: 30%;
     display: inline-block;
 }
+
+/*==============SHelter Check in==============*/
+.bgContainer2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 200px;
+    right: 0;
+    margin: auto; 
+    z-index: 2;
+
+    width: 380px;
+    height: 380px;
+    text-align: center;
+}
+.bgContainer2 input[type="text"]{
+    position: relative;
+    width: 380px;
+    border: 2px solid #47AA42;
+    border-radius: 4px;
+    background-color: white;
+    padding: 7px 15px 7px 15px;
+    display: block;
+    margin-top: 8px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.bgContainer2 .button{
+    display: inline-block;
+    width: 380px;
+    margin-top: -15px;
+}
+
+.bgContainer2 h1{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+.bgContainer2 h3{
+    display: inline;
+    }
+.bgContainer2 h4{
+    display: inline;
+    font-size: 17.5px;
+    font-weight: 400;
+    margin-top: -10px;
+    padding: 0;
+}
+.checkbox{
+    text-align: center;
+    position: relative;
+    left: 170px;
+    height: 30px;
+    width: 30px;
+}
+
+.coverBackground{
+    width: 100%;
+    height: 100%;
+    background-color: #47AA42;
+    z-index: 11;
+    position:fixed;
+    top: -100%;
+    left: 0;
+}
+.coverCell1{
+    cursor: pointer;
+    top:-150px;
+    bottom:0;
+    left:0;
+    right: 0;
+    width: 500px;
+    height: 160px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+}
+.coverCell2{
+    cursor: pointer;
+    top:120px;
+    bottom:0;
+    left:0;
+    right: 0;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+}
+.coverCell1:hover{
+    background: #F0C808;
+    box-shadow: 0 10px 0px #333533;
+    border-bottom: 3px solid #333533;
+    transition: all 0.1s ease-in;
+}
+.coverCell1:active{
+    background: #F0C808;
+    box-shadow: 0 4px 1px #333533;
+    border-bottom: 0px solid #333533;
+    transition: all 0.1s ease-in;
+
+    transform:translateY(4px);
+    border-bottom-width: 2px;
+    box-shadow: none;
+}
+.coverCell2:hover{
+    background: #F0C808;
+    box-shadow: 0 10px 0px #333533;
+    border-bottom: 3px solid #333533;
+    transition: all 0.1s ease-in;
+}
+.coverCell2:active{
+    background: #F0C808;
+    box-shadow: 0 4px 1px #333533;
+    border-bottom: 0px solid #333533;
+    transition: all 0.1s ease-in;
+
+    transform:translateY(4px);
+    border-bottom-width: 2px;
+    box-shadow: none;
+}
+.coverBackground h1{
+    font-size: 80px; 
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px; 
+}
+.coverBackground h1:hover{
+    color: white; 
+    transition: all 0.1s ease-in;
+}
+.coverBackground h1:active{
+    color: white;
+}
+.coverBackground h2{
+    font-size: 40px; 
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px; 
+}
+.coverBackground h2:hover{
+    color: white; 
+    transition: all 0.1s ease-in;
+}
+.coverBackground h2:active{
+    color: white;
+}
+
 html, body{
     background: white;
     font-family: 'Open Sans', sans-serif;
@@ -277,9 +465,10 @@ input[type="search"],
 input[type="tel"], 
 input[type="color"], 
 input[type="checkbox"],
+input[type="address"],
 input{
-	position: relative;
-    width: 70%;
+    position: relative;
+    width: 500px;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
@@ -406,22 +595,6 @@ input:focus {
 }
 
 /*==============Map + CSS==============*/
-/*<style>
-#map {
-    height:820px;
-    width:1440px;
-}
-.infoWindowContent {
-    font-size:  14px !important;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-}
-h2 {
-    margin-bottom:0;
-    margin-top: 0;
-}
-</style>
-*/
 #map{
     width: 100%;
     height: 300px;
@@ -435,76 +608,3 @@ h2 {
     border-top: 1px solid #ccc;
     padding-top: 10px;
 }
-
-/*button {
-    margin: 2rem auto;
-    color: #888;
-    -o-transition: color .15s ease-in-out;
-    -ms-transition: color .15s ease-in-out;
-    -moz-transition: color .15s ease-in-out;
-    -webkit-transition: color .15s ease-in-out;
-    transition: color .15s ease-in-out;
-    font-family: Georgia;
-    font-variant-caps: all-small-caps;
-    border: none;
-}
-button:hover {
-    color: #000;
-    -o-transition: color .15s ease-in-out;
-    -ms-transition: color .15s ease-in-out;
-    -moz-transition: color .15s ease-in-out;
-    -webkit-transition: color .15s ease-in-out;
-    transition: color .15s ease-in-out;
-}
-blockquote {
-    margin-left:0;
-    font-size:1.4rem;
-    font-weight:bold;
-    font-style: italic;
-}
-blockquote span {
-    margin-left: -0.7rem;
-}
-ul, ol {
-    padding-left: 0;
-}
-li + li {
-    margin-top: 0.5rem;
-}
-h1, h2, h3, h4, h5, h6, blockquote, ul, ol, div {
-    margin-top: 0.75rem;
-}
-h1 {
-    font-size:2rem;
-    font-weight:bold;
-    line-height:2.5rem;
-    letter-spacing: -0.025rem;
-    color: cc5050;
-}
-h2 {
-    font-size:1.75rem;
-    line-height:2rem;
-    font-weight:normal;
-    color: cc5050;
-}
-h3 {
-    font-size:1.4rem;
-    font-weight:bold;
-    color: cc5050;
-}
-h4 {
-    font-size:1.4rem;
-    font-weight:normal;
-    color: cc5050;
-}
-h5 {
-    font-size:1.2rem;
-    font-weight:normal;
-    color: cc5050;
-}
-h6 {
-    font-size:1rem;
-    font-weight:normal;
-    color: cc5050;
-}
-*/
